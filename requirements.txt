@@ -1,0 +1,27 @@
+# FastAPI 및 서버 관련
+fastapi==0.103.1
+uvicorn==0.23.2
+python-multipart==0.0.6
+aiofiles==23.1.0
+
+# 파일 처리 라이브러리
+PyPDF2==3.0.1
+python-docx==0.8.11
+PyMuPDF==1.22.5
+
+# 자연어 처리 및 임베딩
+nltk==3.8.1
+scikit-learn==1.2.2
+numpy==1.24.3
+pandas==2.0.3
+
+# 벡터 임베딩 및 AI 모델
+torch==2.0.1
+sentence-transformers==2.2.2
+huggingface_hub==0.16.4  # 특정 버전으로 고정하여 호환성 문제 해결
+
+# API 요청
+requests==2.31.0
+
+# 기타 유틸리티
+python-dotenv==1.0.0

@@ -1,0 +1,48 @@
+cat > .gitignore << 'EOL'
+# 가상환경
+venv/
+env/
+ENV/
+chatbot/
+.env
+
+# 파이썬 관련
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 모델 캐시
+.cache/
+.sentence_transformers/
+
+# 업로드 폴더
+temp_uploads/
+
+# 맥OS 관련
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 로그 파일
+*.log
+
+# 시스템 파일
+Thumbs.db
+EOL
