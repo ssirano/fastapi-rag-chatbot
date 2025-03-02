@@ -17,8 +17,8 @@ pandas==2.0.3
 
 # 벡터 임베딩 및 AI 모델
 torch==2.0.1
-sentence-transformers==2.2.2
-huggingface_hub==0.16.4  # 특정 버전으로 고정하여 호환성 문제 해결
+sentence-transformers==3.4.1
+huggingface_hub==0.29.1
 
 # API 요청
 requests==2.31.0
